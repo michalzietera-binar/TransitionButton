@@ -57,7 +57,7 @@ public enum StopAnimationStyle {
         return spiner
     }()
     
-    private var cachedTitle: String?
+    public var cachedTitle: String?
     private var cachedImage: UIImage?
     
     private let springGoEase:CAMediaTimingFunction  = CAMediaTimingFunction(controlPoints: 0.45, -0.36, 0.44, 0.92)
